@@ -1,0 +1,37 @@
+.header-logo {
+    height: 350px;
+    background-image: url("Caduceus, Kundalini.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1index {
+    font-size: 400%;
+    margin: 0;
+	color: black;	
+	/*-webkit-text-stroke: 1px #fe18c4;*/
+	font-family: 'Almendra', serif;
+}
+
+body {
+	/*background-image: url("poisson.JPG");*/
+    background-color: #fee9fa;
+    margin: 0; /* Optionnel */
+}
+
+.imagedroite {
+  position: fixed;   /* Reste bloquée en bas à droite même quand on défile */
+  bottom: 0px;      /* Marge par rapport au bas */
+  right: 0px;       /* Marge par rapport à la droite */
+  width: 300px;      /* Ajuste la largeur (la hauteur s'adapte automatiquement) */
+  height: auto;
+}
+
+a {
+  color: black;
+  /*text-decoration: none;*/
+}
