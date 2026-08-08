@@ -6,7 +6,7 @@
   height: auto;
 }
 body {
-  background-image: url("tableauu.JPG");
+  background-image: url("tableauu.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; /* "cover" permet de couvrir tout l'écran */
