@@ -1,0 +1,42 @@
+.imagedroite {
+  position: fixed;   /* Reste bloquée en bas à droite même quand on défile */
+  bottom: 0px;      /* Marge par rapport au bas */
+  right: 0px;       /* Marge par rapport à la droite */
+  width: 300px;      /* Ajuste la largeur (la hauteur s'adapte automatiquement) */
+  height: auto;
+}
+body {
+  background-image: url("tableauu.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* "cover" permet de couvrir tout l'écran */
+  min-height: 100vh;
+  margin: 0;
+  position: relative; /* Indispensable pour caler le texte par-dessus */
+}
+
+.imagegauche {
+  position: fixed;   /* Reste bloquée en bas à droite même quand on défile */
+  bottom: 0px;      /* Marge par rapport au bas */
+  left: 0px;       /* Marge par rapport à la gauche */
+  width: 300px;      /* Ajuste la largeur (la hauteur s'adapte automatiquement) */
+  height: auto;
+}
+
+.texte-ciel {
+  position: absolute;
+  top: 50px;       /* Distance par rapport au haut de l'écran */
+  left: 260px;      /* Distance par rapport à la gauche */
+  color: black;    /* Change la couleur si besoin pour qu'il soit bien lisible */
+  font-size: 18px; /* Ajuste la taille du texte */
+  z-index: 10;     /* S'assure que le texte passe au-dessus des images */
+}
+
+header {
+  position: absolute;
+  top: 50px;       /* Distance par rapport au haut de l'écran */
+  left: 80px;      /* Distance par rapport à la gauche */
+  color: black;    /* Change la couleur si besoin pour qu'il soit bien lisible */
+  font-size: 18px; /* Ajuste la taille du texte */
+  z-index: 10;     /* S'assure que le texte passe au-dessus des images */
+}
